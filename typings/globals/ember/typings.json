@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/41a2fd266b4fd5a0404d3f1debd209a6f1df7360/ember/ember.d.ts",
+    "raw": "registry:dt/ember#2.7.0+20160806154521",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/41a2fd266b4fd5a0404d3f1debd209a6f1df7360/ember/ember.d.ts"
+  }
+}
