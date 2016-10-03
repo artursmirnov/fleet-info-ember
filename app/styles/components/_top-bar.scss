@@ -1,0 +1,10 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $top-bar-height;
+    z-index: $top-bar-z-index;
+
+    background-color: $panel-background-color;
+}

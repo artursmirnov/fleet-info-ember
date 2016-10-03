@@ -16,6 +16,7 @@ export default LeafletMapComponent.extend({
     worldCopyJump: true,
     attributionControl: false,
     zoomControl: false,
+    maxBoundsViscosity: 1,
 
     didInsertElement() {
         this._super(...arguments);
