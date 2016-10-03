@@ -56,3 +56,4 @@ Specify what it takes to deploy your app.
 * [ember-leaflet](http://www.ember-leaflet.com) - mapping library
 * [ember-leaflet-google-tile-layer](https://github.com/miguelcobain/ember-leaflet-google-tile-layer) - Google Maps tiles for Leaflet
 * [ember-leaflet-openweathermap](https://github.com/arschmitz/ember-leaflet-openweathermap) - weather data layers for Leaflet
+* [ember-cli-mirage](http://www.ember-cli-mirage.com) - mocking library

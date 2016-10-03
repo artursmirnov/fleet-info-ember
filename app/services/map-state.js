@@ -15,6 +15,7 @@ export default Ember.Service.extend({
     zoom: 2,
 
     _mapType: MAP_TYPES.TERRAIN,
+    
     mapType: Ember.computed({
         get() {
             return this._mapType;

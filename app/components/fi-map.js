@@ -19,7 +19,7 @@ export default LeafletMapComponent.extend({
 
     didInsertElement() {
         this._super(...arguments);
-        this._layer.addControl(L.control.zoom({ position: 'topright' }));
+        // this._layer.addControl(L.control.zoom({ position: 'topright' }));
     },
 
     _zoomend(leafletEvent) {
