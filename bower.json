@@ -4,6 +4,7 @@
     "ember": "~2.8.0",
     "ember-cli-shims": "0.1.1",
     "leaflet": "^1.0.0",
-    "leaflet-openweathermap": "git@github.com:arschmitz/leaflet-openweathermap.git#abff397"
+    "leaflet-openweathermap": "git@github.com:arschmitz/leaflet-openweathermap.git#abff397",
+    "bootstrap": "v4.0.0-alpha.4"
   }
 }
