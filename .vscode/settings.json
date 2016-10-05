@@ -1,0 +1,75 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+
+    // Columns at which to show vertical rulers
+    "editor.rulers": [80, 150],
+
+    // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+    "editor.tabSize": 2,
+
+    // Insert spaces when pressing Tab. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+    "editor.insertSpaces": true,
+
+    // Controls if selections have rounded corners
+    "editor.roundedSelection": false,
+
+    // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
+    "editor.wordWrap": false,
+
+    // Control the cursor animation style, possible values are 'blink', 'smooth', 'phase', 'expand' and 'solid'
+    "editor.cursorBlinking": "blink",
+
+    // Controls if the cursor should be hidden in the overview ruler.
+    "editor.hideCursorInOverviewRuler": true,
+
+    // Remove trailing auto inserted whitespace
+    "editor.trimAutoWhitespace": true,
+
+
+// Workbench
+
+    // Controls if opened editors should show in tabs or not.
+    "workbench.editor.showTabs": false,
+
+    // Controls where editors open. Select 'left' or 'right' to open editors to the left or right of the current active one. Select 'first' or 'last' to open editors independently from the currently active one.
+    "workbench.editor.openPositioning": "last",
+
+
+// Files
+
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    },
+
+    // Configure glob patterns of file paths to exclude from file watching. Changing this setting requires a restart. When you experience Code consuming lots of cpu time on startup, you can exclude large folders to reduce the initial load.
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true,
+        "**/vendor/**": true
+    },
+
+
+// File Explorer
+
+    // Number of editors shown in the Open Editors pane. Set it to 0 to hide the pane.
+    "explorer.openEditors.visible": 50,
+
+
+// Search
+
+    // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true,
+        "**/dist": true,
+        "**/build": true
+    }
+
+
+}
