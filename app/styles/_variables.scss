@@ -5,14 +5,18 @@ $base-font-size: 12px;
 // LAYOUT
 
 $top-bar-height: 3em;
+$info-panel-margin: 0.5em;
+$info-panel-width: 20em;
 
 
 // Z-INDEX
 
 $fi-map-z-index: 1;
 $top-bar-z-index: $fi-map-z-index + 1;
+$info-panel-z-index: $top-bar-z-index + 1;
 
 
 // COLORS
 
 $panel-background-color: rgba(255, 255, 255, 0.85);
+$panel-box-shaddow: 0 0 4px 1px #bbb;

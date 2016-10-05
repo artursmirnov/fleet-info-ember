@@ -1,0 +1,11 @@
+.info-panel {
+    position: fixed;
+    top: $top-bar-height + $info-panel-margin;
+    bottom: $info-panel-margin;
+    left: $info-panel-margin;
+    width: $info-panel-width;
+    z-index: $info-panel-z-index;
+
+    background-color: $panel-background-color;
+    box-shadow: $panel-box-shaddow;
+}
