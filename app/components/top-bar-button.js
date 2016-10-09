@@ -4,7 +4,7 @@ import $ from 'jquery';
 const POSITION = {
   LEFT: 'left',
   RIGHT: 'right'
-}
+};
 
 export default Ember.Component.extend({
   tagName: 'button',

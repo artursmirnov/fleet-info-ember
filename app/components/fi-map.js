@@ -1,6 +1,5 @@
 import Ember from 'ember';
 import LeafletMapComponent from './leaflet-map';
-import { MAP_TYPES } from '../services/map-state';
 
 export default LeafletMapComponent.extend({
     classNames: ['fi-map'],

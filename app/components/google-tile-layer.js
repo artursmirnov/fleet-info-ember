@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import GoogleTileLayerComponent from 'ember-leaflet-google-tile-layer/components/google-tile-layer';
 
 GoogleTileLayerComponent.reopen({
