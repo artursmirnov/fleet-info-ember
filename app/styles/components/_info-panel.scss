@@ -4,6 +4,7 @@
     bottom: $info-panel-margin;
     left: -$info-panel-width;
     width: $info-panel-width;
+    max-width: 90%;
     z-index: $info-panel-z-index;
 
     @include panel();

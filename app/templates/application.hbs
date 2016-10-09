@@ -1,17 +1,21 @@
-{{fi-map}}
-
-
-{{#top-bar as |bar|}}
+<div class="fi-app">
   
-  {{bar.button title=infoPanelTitle icon=infoPanelIcon click=(action 'toggleInfoPanel')}}
-  
-  {{#bar.button icon="dots-vertical" position="right"}}
-    {{settings-menu}}
-  {{/bar.button}}
-
-{{/top-bar}}
+  {{fi-map}}
 
 
-{{#info-panel open=infoPanelOpen}}
+  {{#top-bar as |bar|}}
+    
+    {{bar.button title=infoPanelTitle icon=infoPanelIcon click=(action 'toggleInfoPanel')}}
+    
+    {{#bar.button icon="dots-vertical" position="right"}}
+      {{settings-menu}}
+    {{/bar.button}}
 
-{{/info-panel}}
+  {{/top-bar}}
+
+
+  {{#info-panel open=infoPanelOpen}}
+
+  {{/info-panel}}
+
+</div>
