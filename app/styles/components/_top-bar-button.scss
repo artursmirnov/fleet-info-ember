@@ -1,0 +1,44 @@
+.top-bar-button,
+.top-bar-button:hover,
+.top-bar-button:focus {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.top-bar-button {
+  height: 100%;
+  padding: 0 1em;
+  color: $top-bar-button-text-color;
+
+  transition: 
+    box-shadow 0.1s linear, 
+    background-color 0.2s linear;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+
+  &:active {
+    box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+.top-bar-button--left {
+  float: left;
+}
+
+.top-bar-button--right {
+  float: right;
+}
+
+.top-bar-button__icon {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.top-bar-button__title {
+  vertical-align: middle;
+  margin-left: 0.3em;
+}

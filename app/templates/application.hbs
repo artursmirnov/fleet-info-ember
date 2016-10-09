@@ -1,11 +1,12 @@
 {{fi-map}}
 
 
-{{#top-bar}}
-
+{{#top-bar as |bar|}}
+  {{bar.button title=infoPanelTitle icon=infoPanelIcon click=(action 'toggleInfoPanel')}}
+  {{bar.button icon="settings" position="right"}}
 {{/top-bar}}
 
 
-{{#info-panel}}
+{{#info-panel open=infoPanelOpen}}
 
 {{/info-panel}}

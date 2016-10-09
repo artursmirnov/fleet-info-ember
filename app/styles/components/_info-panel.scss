@@ -2,10 +2,16 @@
     position: fixed;
     top: $top-bar-height + $info-panel-margin;
     bottom: $info-panel-margin;
-    left: 0;
+    left: -$info-panel-width;
     width: $info-panel-width;
     z-index: $info-panel-z-index;
 
     background-color: $panel-background-color;
     box-shadow: $panel-box-shaddow;
+
+    transition: left 0.3s ease-in-out;
+}
+
+.info-panel--open {
+    left: 0;
 }

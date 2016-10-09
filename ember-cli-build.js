@@ -20,5 +20,12 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import('bower_components/mdi/css/materialdesignicons.css');
+  app.import('bower_components/mdi/fonts/materialdesignicons-webfont.eot', { destDir: 'fonts' });
+  app.import('bower_components/mdi/fonts/materialdesignicons-webfont.svg', { destDir: 'fonts' });
+  app.import('bower_components/mdi/fonts/materialdesignicons-webfont.ttf', { destDir: 'fonts' });
+  app.import('bower_components/mdi/fonts/materialdesignicons-webfont.woff', { destDir: 'fonts' });
+  app.import('bower_components/mdi/fonts/materialdesignicons-webfont.woff2', { destDir: 'fonts' });
+
   return app.toTree();
 };
