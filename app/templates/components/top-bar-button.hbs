@@ -4,3 +4,6 @@
 {{#if title}}
   <span class="top-bar-button__title">{{title}}</span>
 {{/if}}
+{{#if isContentVisible}}
+  {{yield}}
+{{/if}}

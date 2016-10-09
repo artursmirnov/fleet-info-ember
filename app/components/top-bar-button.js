@@ -14,6 +14,8 @@ export default Ember.Component.extend({
   title: '',
   icon: '',
 
+  isContentVisible: false,
+
   isLeft: Ember.computed({
     get() {
       return this.get('position') === POSITION.LEFT;
@@ -24,5 +26,11 @@ export default Ember.Component.extend({
     get() {
       return this.get('position') === POSITION.RIGHT;
     }
-  })
+  }),
+
+  click() {
+    this.toggleProperty('isContentVisible');
+  }
+
+
 });

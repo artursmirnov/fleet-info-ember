@@ -2,8 +2,13 @@
 
 
 {{#top-bar as |bar|}}
+  
   {{bar.button title=infoPanelTitle icon=infoPanelIcon click=(action 'toggleInfoPanel')}}
-  {{bar.button icon="settings" position="right"}}
+  
+  {{#bar.button icon="settings" position="right"}}
+    
+  {{/bar.button}}
+  
 {{/top-bar}}
 
 
