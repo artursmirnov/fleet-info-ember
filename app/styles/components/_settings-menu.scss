@@ -1,0 +1,25 @@
+.settings-menu {
+  position: absolute;
+  right: $menu-margin;
+  top: $menu-margin;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: none;
+
+  @include panel();
+  background-color: #fff;
+
+  z-index: $settings-menu-z-index;
+}
+
+.settings-menu__item {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0.5em 1em;
+  list-style: none;
+
+  &:hover {
+    background-color: $button-hover-bg-color;
+  } 
+}

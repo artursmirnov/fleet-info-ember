@@ -8,6 +8,7 @@
 }
 
 .top-bar-button {
+  position: relative;
   height: 100%;
   padding: 0 1em;
   color: $top-bar-button-text-color;
@@ -17,7 +18,7 @@
     background-color 0.2s linear;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: $button-hover-bg-color;
   }
 
   &:active {

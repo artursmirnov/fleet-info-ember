@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import $ from 'jquery';
 
 const POSITION = {
   LEFT: 'left',
@@ -28,8 +29,33 @@ export default Ember.Component.extend({
     }
   }),
 
+  didInsertElement() {
+    $(document).on('click', this._documentClickHandler.bind(this));
+  },
+
+  willRemoveElement() {
+    $(document).off('click', this._documentClickHandler.bind(this));
+  },
+
+  _documentClickHandler(event) {
+    let isChild = $.contains(this.element, event.target);
+    if (!isChild && this.get('isContentVisible')) { 
+      this.set('isContentVisible', false);
+    }
+  },
+
   click() {
-    this.toggleProperty('isContentVisible');
+    Ember.run.later(() => {
+      this.send('click');
+    }, 0);
+  },
+
+  actions: {
+
+    click() {
+      this.toggleProperty('isContentVisible');
+    }
+
   }
 
 

@@ -5,8 +5,11 @@ $base-font-size: 12px;
 // LAYOUT
 
 $top-bar-height: 3em;
+
 $info-panel-margin: 0.5em;
 $info-panel-width: 20em;
+
+$menu-margin: 0.3em;
 
 
 // Z-INDEX
@@ -14,11 +17,14 @@ $info-panel-width: 20em;
 $fi-map-z-index: 1;
 $top-bar-z-index: $fi-map-z-index + 1;
 $info-panel-z-index: $top-bar-z-index + 1;
+$settings-menu-z-index: $info-panel-z-index + 1;
 
 
 // COLORS
 
-$panel-background-color: rgba(255, 255, 255, 0.9);
-$panel-box-shaddow: 0 0 4px 1px #bbb;
+$panel-background-color: rgba(255, 255, 255, 0.85);
+$panel-box-shaddow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
 
 $top-bar-button-text-color: rgba(0, 0, 0, 0.6);
+
+$button-hover-bg-color: rgba(0, 0, 0, 0.03);

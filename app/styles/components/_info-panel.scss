@@ -6,8 +6,7 @@
     width: $info-panel-width;
     z-index: $info-panel-z-index;
 
-    background-color: $panel-background-color;
-    box-shadow: $panel-box-shaddow;
+    @include panel();
 
     transition: left 0.3s ease-in-out;
 }

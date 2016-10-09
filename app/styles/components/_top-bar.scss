@@ -6,8 +6,7 @@
     height: $top-bar-height;
     z-index: $top-bar-z-index;
 
-    background-color: $panel-background-color;
-    box-shadow: $panel-box-shaddow;
+    @include panel();
 
     clear: both;
 }
