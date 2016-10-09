@@ -1,0 +1,23 @@
+.map-zoom {
+  position: fixed;
+  top: $map-zoom-top;
+  right: $map-zoom-right;
+
+  z-index: $map-zoom-z-index;
+
+  @include panel();
+}
+
+.map-zoom__button {
+  @include button;
+
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  font-size: 1.2em;
+
+  &:active {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,29 +1,9 @@
-.top-bar-button,
-.top-bar-button:hover,
-.top-bar-button:focus {
-  background: none;
-  border: none;
-  outline: none;
-  box-shadow: none;
-}
-
 .top-bar-button {
+  @include button;
+  
   position: relative;
   height: 100%;
   padding: 0 1em;
-  color: $top-bar-button-text-color;
-
-  transition: 
-    box-shadow 0.1s linear, 
-    background-color 0.2s linear;
-
-  &:hover {
-    background-color: $button-hover-bg-color;
-  }
-
-  &:active {
-    box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
-  }
 }
 
 .top-bar-button--left {

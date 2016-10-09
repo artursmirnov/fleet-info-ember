@@ -1,0 +1,27 @@
+@mixin button {
+  color: $button-text-color;
+
+  &, &:hover, &:focus, &:active {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  transition: 
+    box-shadow 0.1s linear, 
+    background-color 0.2s linear,
+    font-size 0.2s linear;
+
+  &:hover {
+    background-color: $button-hover-bg-color;
+  }
+
+  &:active {
+    box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  &[disabled=true] {
+    color: $button-disabled-text-color;
+  }
+}

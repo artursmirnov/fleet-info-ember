@@ -11,7 +11,8 @@ export default LeafletMapComponent.extend({
     zoom: Ember.computed.alias('state.zoom'),
     mapType: Ember.computed.alias('state.mapType'),
 
-    minZoom: 2,
+    minZoom: Ember.computed.alias('state.minZoom'),
+    maxZoom: Ember.computed.alias('state.maxZoom'),
     worldCopyJump: true,
     attributionControl: false,
     zoomControl: false,

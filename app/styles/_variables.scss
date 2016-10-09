@@ -13,12 +13,16 @@ $info-panel-width: 20em;
 
 $menu-margin: 0.3em;
 
+$map-zoom-top: $top-bar-height + $info-panel-margin;
+$map-zoom-right: $info-panel-margin;
+
 
 // Z-INDEX
 
 $fi-map-z-index: 1;
 $top-bar-z-index: $fi-map-z-index + 1;
-$info-panel-z-index: $top-bar-z-index + 1;
+$map-zoom-z-index: $top-bar-z-index + 1;
+$info-panel-z-index: $map-zoom-z-index + 1;
 $settings-menu-z-index: $info-panel-z-index + 1;
 
 
@@ -27,6 +31,6 @@ $settings-menu-z-index: $info-panel-z-index + 1;
 $panel-background-color: rgba(255, 255, 255, 0.85);
 $panel-box-shaddow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
 
-$top-bar-button-text-color: rgba(0, 0, 0, 0.6);
-
+$button-text-color: rgba(0, 0, 0, 0.6);
 $button-hover-bg-color: rgba(0, 0, 0, 0.03);
+$button-disabled-text-color: rgba(0, 0, 0, 0.4)

@@ -14,6 +14,9 @@ export default Ember.Service.extend({
     lon: 0,
     zoom: 2,
 
+    minZoom: 2,
+    maxZoom: 17,
+
     _mapType: MAP_TYPES.TERRAIN,
     
     mapType: Ember.computed({
