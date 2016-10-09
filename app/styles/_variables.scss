@@ -20,8 +20,8 @@ $map-zoom-right: $info-panel-margin;
 // Z-INDEX
 
 $fi-map-z-index: 1;
-$top-bar-z-index: $fi-map-z-index + 1;
-$map-zoom-z-index: $top-bar-z-index + 1;
+$map-zoom-z-index: $fi-map-z-index + 1;
+$top-bar-z-index: $map-zoom-z-index + 1;
 $info-panel-z-index: $map-zoom-z-index + 1;
 $settings-menu-z-index: $info-panel-z-index + 1;
 
