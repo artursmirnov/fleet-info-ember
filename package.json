@@ -1,6 +1,6 @@
 {
   "name": "fleet-info",
-  "version": "0.0.0",
+  "version": "0.15.1",
   "description": "Small description for fleet-info goes here",
   "private": true,
   "directories": {
