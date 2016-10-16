@@ -1,6 +1,6 @@
 {{#each vessels as |vessel|}}
 
-  <li class="vessel-list__item">
+  <li class="vessel-list__item" {{action "selectVessel" vessel}}>
     {{vessel.name}}
   </li>
 

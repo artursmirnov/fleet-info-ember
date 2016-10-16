@@ -4,6 +4,14 @@ export default Ember.Component.extend({
   tagName: 'ul',
   classNames: ['vessel-list'],
 
-  vessels: []
+  vessels: [],
+
+  actions: {
+
+    selectVessel(vessel) {
+      this.get('selectVessel')(vessel);
+    }
+
+  }
 
 });

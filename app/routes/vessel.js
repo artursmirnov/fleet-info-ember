@@ -2,13 +2,14 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
 
-  model() {
-    return this.store.findAll('vessel');
+  model(params) {
+    return this.store.findRecord('vessel', params.vessel_id);
   },
 
   setupController(controller, model) {
     this._super(controller, model);
-    this.send('setInfoPanelTitle', "Vessels");
+    this.send('setInfoPanelTitle', model.get('name'));
   }
+
 
 });
