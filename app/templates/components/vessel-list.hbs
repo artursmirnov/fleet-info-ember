@@ -1,0 +1,13 @@
+{{#each vessels as |vessel|}}
+
+  <li class="vessel-list__item">
+    {{vessel.name}}
+  </li>
+
+{{else}}
+
+  <li class="vessel-list__empty">
+    No vessels found
+  </li>
+
+{{/each}}

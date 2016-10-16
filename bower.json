@@ -1,10 +1,12 @@
 {
   "name": "fleet-info",
   "dependencies": {
+    "bootstrap": "v4.0.0-alpha.4",
     "ember": "~2.8.0",
     "ember-cli-shims": "0.1.1",
     "leaflet": "^1.0.0",
     "leaflet-openweathermap": "git@github.com:arschmitz/leaflet-openweathermap.git#abff397",
-    "bootstrap": "v4.0.0-alpha.4"
+    "mdi": "^1.7.22",
+    "perfect-scrollbar": "^0.6.12"
   }
 }
