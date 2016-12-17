@@ -12,8 +12,6 @@ export default Ember.Component.extend({
   classNameBindings: ['isLeft:top-bar-button--left', 'isRight:top-bar-button--right'],
 
   position: POSITION.LEFT,
-  title: '',
-  icon: '',
 
   isContentVisible: false,
 
@@ -39,7 +37,7 @@ export default Ember.Component.extend({
 
   _documentClickHandler(event) {
     let isChild = $.contains(this.element, event.target);
-    if (!isChild && this.get('isContentVisible')) { 
+    if (!isChild && this.get('isContentVisible')) {
       this.set('isContentVisible', false);
     }
   },
