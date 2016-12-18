@@ -1,9 +1,9 @@
-{{#if icon}}
-  <i class="top-bar-button__icon mdi mdi-{{icon}}"></i>
+{{#if attrs.icon}}
+  <i class="top-bar-button__icon mdi mdi-{{attrs.icon}}"></i>
 {{/if}}
 
-{{#if title}}
-  <span class="top-bar-button__title">{{title}}</span>
+{{#if attrs.title}}
+  <span class="top-bar-button__title">{{attrs.title}}</span>
 {{/if}}
 
 {{#if isContentVisible}}

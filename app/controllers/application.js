@@ -10,9 +10,9 @@ export default Ember.Controller.extend({
   infoPanelOpen: true,
 
   infoPanelTitle: "Vessels",
-  
+
   infoPanelIcon: Ember.computed('infoPanelOpen', {
-    get(){
+    get() {
       return this.get('infoPanelOpen') ? PANEL_ICON.OPENED : PANEL_ICON.CLOSED;
     }
   }),

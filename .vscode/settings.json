@@ -42,7 +42,9 @@
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
-        "**/.DS_Store": true
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/dist": true
     },
 
     // Configure glob patterns of file paths to exclude from file watching. Changing this setting requires a restart. When you experience Code consuming lots of cpu time on startup, you can exclude large folders to reduce the initial load.

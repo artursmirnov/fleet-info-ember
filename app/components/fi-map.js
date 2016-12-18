@@ -19,7 +19,7 @@ export default LeafletMapComponent.extend({
     maxBoundsViscosity: 1,
 
     didInsertElement() {
-        this._super(...arguments);
+        this._super(...arguments); 
         // this._layer.addControl(L.control.zoom({ position: 'topright' }));
     },
 
